@@ -1,9 +1,5 @@
 <?php
 
-var_dump($_SERVER);
-
-define('INSIGHT_DEBUG', true);
-
 /**
  * Load FirePHP
  */
