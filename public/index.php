@@ -1,3 +1,3 @@
 <?php
 
-require_once(dirname(__DIR__) . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'bootstrap.php');
+require_once(dirname(__DIR__) . '/lib/bootstrap.php');
