@@ -36,6 +36,12 @@ See [FirePHP Install Documentation](http://reference.developercompanion.com/#/To
 NOTE: This demo allows all IPs and authorization keys only to provide a configurationless demo.
 
 
+Limitations
+===========
+
+At this time FirePHP will only work with **single instance** apps. Multi-instance apps will be supported soon once debugging data is stored in _memcache_ instead of _temporary files_.
+
+
 Documentation License
 =====================
 
