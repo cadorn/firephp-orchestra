@@ -1,7 +1,7 @@
 FirePHP on Orchestra.io Demo
 ============================
 
-This demo shows how to use [FirePHP](http://www.firephp.org/) in an application deployed to [Orchestra.io](http://orchestra.io/).
+This demo shows how to use [FirePHP 1.0](http://www.firephp.org/) in an application deployed to [Orchestra.io](http://orchestra.io/).
 
 
 Instructions
