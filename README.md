@@ -4,6 +4,23 @@ FirePHP on Orchestra.io Demo
 This demo shows how to use [FirePHP](http://www.firephp.org/) in an application deployed to [Orchestra.io](http://orchestra.io/).
 
 
+Instructions
+============
+
+  1. Create an account at [http://orchestra.io/](http://orchestra.io/).
+  2. Deploy this demo app by going to [https://my.orchestra.io/apps/create/free](https://my.orchestra.io/apps/create/free) and using `git://github.com/cadorn/firephp-orchestra.git` for the _Repo URL_.
+  3. Install [DeveloperCompanion](http://developercompanion.com/) to use as a _FirePHP_ client.
+  4. Launch _DeveloperCompanion_ using the icon in the browser status bar.
+  5. Create a new workspace using the _Public Hostname_ of the deployed app from _Orchestra_ as the _Homepage URL_ in _DeveloperCompanion_ and click _Add Workspace_ (e.g. `http://app-640-1305145000.orchestra.io/`).
+  6. When the workspace has launched click on the _URL_ shown to launch the app and log a test message.
+  7. Double-click on the request that appeared in the workspace.
+  8. When the request inspector has launched click on the _File_ icon next to the `Hello World` message to see the live source code from the server.
+
+For complete FirePHP API documentation and support see: [http://reference.developercompanion.com/#/Tools/FirePHPCompanion/API/](http://reference.developercompanion.com/#/Tools/FirePHPCompanion/API/)  
+
+Coming soon: Live editing of remote source code!
+
+
 Documentation License
 =====================
 
