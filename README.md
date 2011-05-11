@@ -7,6 +7,8 @@ This demo shows how to use [FirePHP 1.0](http://www.firephp.org/) in an applicat
 Instructions
 ============
 
+**NOTE: Before you use this in a live application see security note below!**
+
   1. Create an account at [http://orchestra.io/](http://orchestra.io/).
   2. Deploy this demo app by going to [https://my.orchestra.io/apps/create/free](https://my.orchestra.io/apps/create/free) and using `git://github.com/cadorn/firephp-orchestra.git` for the _Repo URL_.
   3. Install [DeveloperCompanion](http://developercompanion.com/) to use as a _FirePHP_ client.
@@ -19,6 +21,19 @@ Instructions
 For complete FirePHP API documentation and support see: [http://reference.developercompanion.com/#/Tools/FirePHPCompanion/API/](http://reference.developercompanion.com/#/Tools/FirePHPCompanion/API/)  
 
 Coming soon: Live editing of remote source code!
+
+
+IMPORTANT FOR SECURITY!
+=======================
+
+When you use this code or _FirePHP 1.0_ in general in your application make sure you update:
+
+  * The [INSIGHT_IPS](https://github.com/cadorn/firephp-orchestra/blob/master/lib/bootstrap.php#L7) constant by setting it to a comma separated list of _IP addresses_ allowed to connect to FirePHP.
+  * The [INSIGHT_AUTHKEYS](https://github.com/cadorn/firephp-orchestra/blob/master/lib/bootstrap.php#L8) constant by setting it to a comma separated list of _client authorization keys_ allowed to connect to FirePHP. Authorization keys are issued when a user creates a new workspace in _DeveloperCompanion_.
+
+See [FirePHP Install Documentation](http://reference.developercompanion.com/#/Tools/FirePHPCompanion/Install/) for more information.
+
+NOTE: This demo allows all IPs and authorization keys only to provide a configurationless demo.
 
 
 Documentation License
