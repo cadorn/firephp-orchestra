@@ -4,8 +4,8 @@
  * Load FirePHP
  */
 
-define('INSIGHT_IPS', '*');
-define('INSIGHT_AUTHKEYS', '*');
+define('INSIGHT_IPS', '*');         // UPDATE THIS FOR PRODUCTION USE
+define('INSIGHT_AUTHKEYS', '*');    // UPDATE THIS FOR PRODUCTION USE
 define('INSIGHT_PATHS', dirname(__DIR__));
 define('INSIGHT_SERVER_PATH', '/');
 
